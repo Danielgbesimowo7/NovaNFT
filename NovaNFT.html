@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaNFT</title>
+    <!-- Swiper Js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Custoom css -->
+    <link rel="stylesheet" href="NovaNFT.css">
+
+    <!-- Fontawesome cdn  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="#home" class="logo" id="#home">Nova<span>NFT</span></a>
+
+        <nav class="nav-bar">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#home" class="nav-link">Explore NFTs</a>
+            <a href="#home" class="nav-link">Create/Sell</a>
+            <a href="#roadmap" class="nav-link">Roadmap</a>
+            <a href="#home" class="nav-link">Community</a>
+            <a class="btn" id="toggler">connect wallet</a>
+        </nav>
+
+
+        <div class="nav-btn">
+            <a class="btn" id="toggler">connect wallet</a>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true"></i>
+
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Discover, Collect and Sell <br> Extrordinary NFTs</h1>
+                <p>Step into the future of digital ownership. <br> Explore a world of rare art, innovative and boundless
+                    possibilities</p>
+                <div class="btn-group">
+                    <button class="btn btn-1">Explore Market Place</button>
+                    <button class="btn btn-2">Mint NFTs</button>
+                </div>
+            </div>
+        </div>
+        
+        
+    </section>
+    
+    <section class="impact">
+        <h2 data-aos="slide-up" data-aos-duration="1000">Our Impact So Far</h2>
+        <div class="impact-container">
+            <div class="nfts-sold">
+                <h1>100k +</h1>
+                <p>NFTs Sold</p>
+            </div>
+            <div class="creators">
+                <h1>5k +</h1>
+                <p>verified Creators</p>
+            </div>
+            <div class="nfts-sold">
+                <h1>150k +</h1>
+                <p>Active Users</p>
+            </div>
+            <div class="nfts-sold">
+                <h1>100k +</h1>
+                <p>Partnered Communities</p>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- HOW IT WORKS SECTION -->
+    <section class="how-it-works">
+        <h2 data-aos="slide-up" data-aos-duration="1000">Why Choose Nova<span>NFT</span> ?</h2>
+        <div class="how-it-works-container">
+
+            <!-- HOW IT WORKS CARDS DISPLAY  -->
+            <div data-aos="slide-up" data-aos-duration="1000" class="items item1">
+                <div class="icon">
+                    <i class="fa fa-magic" aria-hidden="true"></i>
+                </div>
+                <h3>Easy Minting</h3>
+                <p>Create your NFT in just a few clicks</p>
+            </div>
+            <div data-aos="slide-up" data-aos-duration="1000" class="items item2">
+                <div class="icon">
+                    <i class="fa fa-tint" aria-hidden="true"></i>
+                </div>
+                <h3>Low Gass Fees</h3>
+                <p>Mint efficiently on our optimized smart contracts</p>
+            </div>
+            <div data-aos="slide-up" data-aos-duration="1000" class="items item3">
+                <div class="icon">
+                    <i class="fa fa-shield" aria-hidden="true"></i>
+                </div>
+                <h3>Secure and verified</h3>
+                <p>Your assets are protected on-chain, always</p>
+            </div>
+            <div data-aos="slide-up" data-aos-duration="1000" class="items item4">
+                <div class="icon">
+                    <i class="fa fa-plug" aria-hidden="true"></i>
+                </div>
+                <h3>Instant Wallet connect</h3>
+                <p>Seamlessly connect MetaMask or WalletConnect</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- NFT DISPLAY SECTION -->
+    <section class="NFTs">
+        <h2 data-aos="fade-up" data-aos-duration="1000">Trending NFTs Right Now</h2>
+        <p data-aos="fade-up" data-aos-duration="1000">Explore the most sought-after digital collectibles on our platform. <br>
+        These NFTs are making waves in the community</p>
+
+        <!-- NFT FILTERS -->
+        <div data-aos="fade-up" data-aos-duration="1000" class="filter">
+            <div class="filter-links">
+                <a href="#trnding">All</a>
+                <a href="#trnding">Art</a>
+                <a href="#trnding">Collectibles</a>
+                <a href="#trnding">Domain names</a>
+            </div>
+
+            <button class="btn">view all nfts <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+        </div>
+
+        <!-- NFT CAROUSEL SLIDER -->
+        <div data-aos="fade-up" data-aos-duration="1000" class="nft-container carousel swiper mySwiper">
+                <div class="carousel-track swiper-wrapper">
+                    <div class="card card1 swiper-slide">
+                        <div class="card-img img1">
+                        </div>
+
+                        <div class="art-content-container">
+
+                            <div class="art-name">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <h3>Ethereal Dreams</h3>
+                            </div>
+    
+                             <div class="art-content">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <span>Daniel Kimmich</span>
+                            </div>
+
+                            <div class="etherum">
+                                <i class="fa fa-diamond" aria-hidden="true"></i>
+                                <h3>1.0 ETH</h3>
+                            </div>
+    
+                            <button class="btn">Bid NFT</button>
+                        </div>
+                        
+                    </div>
+
+                    <div class="card card2 swiper-slide">
+                        <div class="card-img img2">
+                        </div>
+
+                        <div class="art-content-container">
+
+                            <div class="art-name">
+                                <i class="fa fa-leaf" aria-hidden="true"></i>
+                                <h3>MetaDragon</h3>
+                            </div>
+    
+                            <div class="art-content">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <span>Daniel Gbesimowo</span>
+                            </div>
+
+                            <div class="etherum">
+                                <i class="fa fa-diamond" aria-hidden="true"></i>
+                                <h3>1.0 ETH</h3>
+                            </div>
+
+                            <button class="btn">View NFT</button>
+                        </div>
+                        
+                    </div>
+                    <div class="card card3 swiper-slide">
+                        <div class="card-img img3">
+                        </div>
+
+                        <div class="art-content-container">
+
+                            <div class="art-name">
+                                <i class="fa fa-flash" aria-hidden="true"></i>
+                                <h3>Ethereal Dreams</h3>
+                            </div>
+                            <div class="art-content">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <span>Kimmberly Mint</span>
+                            </div>
+
+                            <div class="etherum">
+                                <i class="fa fa-diamond" aria-hidden="true"></i>
+                                <h3>25.0 ETH</h3>
+                            </div>
+
+                            <button class="btn">Collect</button>
+                        </div>
+                        
+                    </div>
+                    <div class="card card4 swiper-slide">
+                        <div class="card-img img4">
+                        </div>
+
+                        <div class="art-content-container">
+
+                            <div class="art-name">
+                                <i class="fa fa-cog" aria-hidden="true"></i>
+                                <h3>Ethereal Dreams</h3>
+                            </div>
+                             <div class="art-content">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <span>Bedon Web3</span>
+                            </div>
+
+                            <div class="etherum">
+                                <i class="fa fa-diamond" aria-hidden="true"></i>
+                                <h3>25.0 ETH</h3>
+                            </div>
+
+                            <button class="btn">View NFT</button>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="card card5 swiper-slide">
+                        <div class="card-img img5">
+                        </div>
+
+                        <div class="art-content-container">
+                            <div class="art-name">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <h3>Ethereal Dreams</h3>
+                            </div>
+                             <div class="art-content">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <span>NFTlorde</span>
+                            </div>
+
+                            <div class="etherum">
+                                <i class="fa fa-diamond" aria-hidden="true"></i>
+                                <h3>1.0 ETH</h3>
+                            </div>
+
+                            <button class="btn">View NFT</button>
+                        </div>
+
+                        
+                    </div>
+                    <div class="card card6 swiper-slide">
+                        <div class="card-img img6">
+                        </div>
+
+                        <div class="art-content-container">
+                            
+                            <div class="art-name">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <h3>Ethereal Dreams</h3>
+                            </div>
+    
+                             <div class="art-content">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <span>Minter Ricky</span>
+                            </div>
+
+                            <div class="etherum">
+                                <i class="fa fa-diamond" aria-hidden="true"></i>
+                                <h3>1.0 ETH</h3>
+                            </div>
+    
+                            <button class="btn">View NFT</button>
+                        </div>
+
+                        
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <!-- TOP CREATORS SECTION -->
+    <section class="top-creators">
+        <h2 data-aos="fade-up" data-aos-duration="1000">Top creators</h2>
+        <p data-aos="fade-up" data-aos-duration="1000">Meet our Top 10 creative minds shaping the NFT world.</p>
+        <div class="creators-container">
+            <div data-aos="fade-up" data-aos-duration="1000" class="card card1">
+                <div class="image">
+                    <img src="images/NFT0.jpg" alt="">
+                </div>
+                <h4>Dao nigga <i class="fa fa-check-circle" aria-hidden="true"></i></h4>
+                <div class="sales">
+                    <p>220+ sold</p>
+                    <p><i class="fa fa-diamond" aria-hidden="true"></i> 120.5 ETH</p>
+                </div>
+                <button class="btn">View Collection</button>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" class="card card2">
+                <div class="image">
+                    <img src="images/The DEMON.jpg" alt="">
+                </div>
+                <h4>NFTking  <i class="fa fa-check-circle" aria-hidden="true"></i></h4>
+                <div class="sales">
+                    <p>250+ sold</p>
+                    <p><i class="fa fa-diamond" aria-hidden="true"></i> 19.5 ETH</p>
+                </div>
+                <button class="btn">View Collection</button>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" class="card card3">
+                <div class="image">
+
+                    <img src="images/NFT1.jpg" alt="">
+                </div>
+                <h4>Web3ninja <i class="fa fa-check-circle" aria-hidden="true"></i></h4>
+                <div class="sales">
+                    <p>120+ sold</p>
+                    <p><i class="fa fa-diamond" aria-hidden="true"></i> 39.5 ETH</p>
+                </div>
+                <button class="btn">View Collection</button>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" class="card card4">
+                <div class="image">
+
+                    <img src="images/NFT2.jpg" alt="">
+                </div>
+                <h4>Monkeyminter <i class="fa fa-check-circle" aria-hidden="true"></i></h4>
+                <div class="sales">
+                    <p>120+ sold</p>
+                    <p><i class="fa fa-diamond" aria-hidden="true"></i> 19 ETH</p>
+                </div>
+                <button class="btn">View Collection</button>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" class="card card5">
+                <div class="image">
+                    <img src="images/NFT3.jpg" alt="">
+                </div>
+                <h4>Art lorde <i class="fa fa-check-circle" aria-hidden="true"></i></h4>
+                <div class="sales">
+                    <p>500+ sold</p>
+                    <p><i class="fa fa-diamond" aria-hidden="true"></i> 100.5 ETH</p>
+                </div>
+                <button class="btn">View Collection</button>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" class="card card6">
+                <div class="image">
+                    <img src="images/NFT4.jpg" alt="">
+                </div>
+                <h4>Clowner <i class="fa fa-check-circle" aria-hidden="true"></i></h4>
+                <div class="sales">
+                    <p>145+ sold</p>
+                    <p><i class="fa fa-diamond" aria-hidden="true"></i> 26.3 ETH</p>
+                </div>
+                <button class="btn">View Collection</button>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" class="card card6">
+                <div class="image">
+                    <img src="images/NFT8.jpg" alt="">
+                </div>
+                <h4>Swordster <i class="fa fa-check-circle" aria-hidden="true"></i></h4>
+                <div class="sales">
+                    <p>200+ sold</p>
+                    <p><i class="fa fa-diamond" aria-hidden="true"></i> 39.5 ETH</p>
+                </div>
+                <button class="btn">View Collection</button>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" class="card card6">
+                <div class="image">
+                    <img src="images/NFT5.jpg" alt="">
+                </div>
+                <h4>Muse Web3er <i class="fa fa-check-circle" aria-hidden="true"></i></h4>
+                <div class="sales">
+                    <p>196+ sold</p>
+                    <p><i class="fa fa-diamond" aria-hidden="true"></i> 32.5 ETH</p>
+
+                </div>
+                <button class="btn">View Collection</button>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" class="card card6">
+                <div class="image">
+                    <img src="images/NFT6.jpeg" alt="">
+                </div>
+                <h4>Dr. Rabbo <i class="fa fa-check-circle" aria-hidden="true"></i></h4>
+                <div class="sales">
+                    <p>132+ sold</p>
+                    <p><i class="fa fa-diamond" aria-hidden="true"></i> 32.5 ETH</p>
+                </div>
+                <button class="btn">View Collection</button>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" class="card card6">
+                <div class="image">
+                    <img src="images/NFT7.jpg" alt="">
+                </div>
+                <h4>Mr. Duck <i class="fa fa-check-circle" aria-hidden="true"></i></h4>
+                <div class="sales">
+                    <p>120+ sold</p>
+                    <p>12.4 ETH</p>
+                </div>
+                <button class="btn">View Collection</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CREATE AND SELL YOUR NFT SECTION -->
+    <section class="how-it-works sell-nft">
+        <h2>Create and sell your <span>NFTs</span> in minutes</h2>
+        <p>Turn your creativity into digital assets. Mint, list, and start earning from your unique art <br>
+            or collectibles with just a few steps</p>
+        <div class="how-it-works-container">
+
+            <!-- HOW IT WORKS CARDS DISPLAY  -->
+            <div data-aos="slide-up" data-aos-duration="1000" class="items item1">
+                <div class="icon">
+                    <i class="fa fa-plug" aria-hidden="true"></i>
+                </div>
+                <h3>Connect Your Wallet</h3>
+                <p>Securely link your crypto wallet to get started</p>
+            </div>
+            <div data-aos="slide-up" data-aos-duration="1000" class="items item2">
+                <div class="icon">
+                    <i class="fa fa-paint-brush" aria-hidden="true"></i>
+                </div>
+                <h3>Create Your NFT</h3>
+                <p>Upload your artwork or digital asset and mint it on the blockchain</p>
+            </div>
+
+            <div data-aos="slide-up" data-aos-duration="1000" class="items item3">
+                <div class="icon">
+                    <i class="fa fa-tags" aria-hidden="true"></i>
+                </div>
+                <h3>List for sale</h3>
+                <p>Set your price or auction style and list it in the market place</p>
+            </div>
+            <div data-aos="slide-up" data-aos-duration="1000" class="items item4">
+                <div class="icon">
+                    <i class="fa fa-money" aria-hidden="true"></i>
+                </div>
+                <h3>Earn and Grow</h3>
+                <p>Watch your NFTs get discovered while you earn crypto and grow your comuunity</p>
+            </div>
+        </div>
+
+        <button data-aos="fade-in" data-aos-duration="3000" class="btn"> Start creating <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+    </section>
+    
+
+
+    <!-- ROADMAP -->
+    <section class="roadmap" id="roadmap">
+        <h2 data-aos="fade-up" data-aos-duration="1000">Our Journey Ahead</h2>
+        <p data-aos="fade-up" data-aos-duration="1000">We are building for the future. Here's a glimpse of where we're going <br> and what you can expect as we evolve the NFT space </p>
+
+        <div class="roadmap-container">
+            <div data-aos="slide-up" data-aos-duration="1000" class="roadmap-card card1">
+                <div class="icon">
+                    <i class="fa fa-rocket" aria-hidden="true"></i>
+                </div>
+
+                <div class="content">
+                    <h3> Q1: Platform Launch</h3>
+
+                    <ul>
+                        <li>Launch core marketplace features</li>
+                        <li>First artist onboarding</li>
+                        <li>Wallet integration</li>
+                    </ul>
+                </div>
+            </div>
+            <div data-aos="slide-up" data-aos-duration="1000" class="roadmap-card card2">
+                <div class="icon">
+                    <i class="fa fa-users" aria-hidden="true"></i>
+                </div>
+                <div class="content">
+
+                    <h3> Q2: Community and Creators tool</h3>
+                    
+                    <ul>
+                        <li>Create dashboard</li>
+                        <li>Community engagement features</li>
+                        <li>Referral and reward system</li>
+                    </ul>
+                </div>
+            </div>
+            <div data-aos="slide-up" data-aos-duration="1000" class="roadmap-card card3">
+                <div class="icon">
+                    <i class="fa fa-cogs" aria-hidden="true"></i>
+                </div>
+                <div class="content">
+                    <h3> Q3: AI & Personalization</h3>
+                    
+                    <ul>
+                        <li>Smart recommendations</li>
+                        <li>Ai curation for trending nfts</li>
+                        <li>Custom user feeds</li>
+                    </ul>
+                </div>
+            </div>
+            <div data-aos="slide-up" data-aos-duration="1000" class="roadmap-card card4">
+                <div class="icon">
+                    <i class="fa fa-globe" aria-hidden="true"></i>
+                </div>
+                <div class="content">
+                    
+                    <h3> Q4: Multichain Expansion</h3>
+                    <ul>
+                        <li>integrate Solana, Polygon, and more</li>
+                        <li>Cross-chain NFT support</li>
+                        <li>Global Partnerships and drops</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- FOOTER SECCTION -->
+    <footer>
+        <h1 data-aos="fade-up" data-aos-duration="1000">Nova<span>NFT</span></h1>
+
+        <div class="footer-container">
+            
+            <div data-aos="fade-up" data-aos-duration="1000" class="footer-links">
+                <h3>Market Place</h3>
+                <div class="quicklinks">
+                    <a href="#home" class="nav-link">All NfTs</a>
+                    <a href="#home" class="nav-link">Trending</a>
+                    <a href="#home" class="nav-link">Top Sellers</a>
+                    <a href="#roadmap" class="nav-link">New Listings</a>
+                </div>
+
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" class="footer-links">
+                <h3>Resources</h3>
+                <div class="quicklinks">
+                    <a href="#home" class="nav-link">Docs</a>
+                    <a href="#home" class="nav-link">Help center</a>
+                    <a href="#home" class="nav-link">Blog</a>
+                    <a href="#roadmap" class="nav-link">partners</a>
+                    <a href="#roadmap" class="nav-link">FAQs</a>
+                </div>
+
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" class="footer-links">
+                <h3>Company</h3>
+                <div class="quicklinks">
+                    <a href="#home" class="nav-link">About US</a>
+                    <a href="#home" class="nav-link">Careers</a>
+                    <a href="#home" class="nav-link">Roadmap</a>
+                    <a href="#roadmap" class="nav-link">Contact</a>
+                </div>
+
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" class="social-media">
+                <h3>Follow Us</h3>
+                <div class="medias">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-telegram" aria-hidden="true"></i>
+                </div>
+
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" class="newsletter">
+                <h3>Stay Updated</h3>
+                <div class="form">
+                    <input type="text" placeholder="enter your email">
+                    <button type="submit" class="btn">Subscribe</button>
+                </div>
+            </div>
+        </div>
+
+        <div  class="footer-bottom">
+            <span href="" class="policy"> c 2025 NovaNFT. All rights reserved</span>
+            <a href="" class="">Privacy Policy | Terms of Service</a>
+        </div>
+    </footer>
+
+    <script src="NovaNFT.js" defer></script>
+
+    <!-- Swiper Js -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+   <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
