@@ -53,7 +53,7 @@ section > h2{
 
 section > p{
     margin: 2rem auto;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #868686;
     text-align: center;
 }
@@ -82,6 +82,7 @@ h1{
 body{
     width: 100%;
     background-color:var(--bg-color);
+    overflow-x: hidden;
 }
 
 
@@ -149,7 +150,7 @@ a.logo{
 /* HERO SECTION */
 
 .hero{
-    background: url("images/Ultracorp.jpg") rgba(0,0,0,0.7) no-repeat center;
+    background: url("images/Ultracorp.webp") rgba(0,0,0,0.7) no-repeat center;
     background-blend-mode: multiply;
     background-position: top;
     background-size: contain;
@@ -216,6 +217,7 @@ a.logo{
     gap:2rem;
     text-align: center;
     position: relative;
+    margin-top: 5rem;
 }
 
 
@@ -241,6 +243,16 @@ a.logo{
 .btn-group .btn-2{
     background:none;
     outline:1px solid
+}
+
+
+/* IMPACT SECTION */
+.impact h2{
+    margin-top: 3rem;
+}
+
+.impact h1{
+    font-size: 2rem;
 }
 
 
@@ -432,7 +444,7 @@ a.logo{
 
 
 .img1{
-    background: url("images/Ultracorp.jpg") no-repeat center;
+    background: url("images/Ultracorp.webp") no-repeat center;
 }
 
 .img2{
@@ -594,7 +606,11 @@ a.logo{
 }
 
 .sell-nft .how-it-works-container::before{
-    background:none !important;
+    background:none;
+}
+
+.sell-nft p{
+    margin-top: 0;
 }
 
 
