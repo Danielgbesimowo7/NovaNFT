@@ -430,6 +430,7 @@ a.logo{
     transform:scale(1.05)
 }
 
+
 .img1{
     background: url("images/Ultracorp.jpg") no-repeat center;
 }
@@ -656,6 +657,7 @@ a.logo{
 
 .roadmap-container .roadmap-card h3{
     margin-bottom: .4rem;
+    font-weight: normal;
 }
 
 .roadmap-card.card1 i{
@@ -835,10 +837,13 @@ footer h1{
         display: list-item;
         margin-left: 0;
         padding: .7rem 1rem;
-        border-radius: 5px;
+        border-radius: 3rem;
+        transition: padding .3s ease;
     }
-    .nav-bar a:hover{
-        color:var(--main-blue)
+
+    .nav-bar a:hover:not(a:last-child){
+        color:var(--main-blue);
+        padding: .7rem 2.5rem;
     }
 
     .nav-bar a:hover{
@@ -847,9 +852,9 @@ footer h1{
 
     .nav-bar a:last-child{
         display: block;
-        border-radius: 3rem;
         padding: .7rem 1rem;
         text-align: center;
+        transition: all .3s ease
     }
     .nav-bar a:last-child:hover{
         color:#fff
