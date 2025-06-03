@@ -40,7 +40,7 @@ var swiper = new Swiper(".mySwiper", {
 // toggles MenuBar
 const menuIcon = document.querySelector(".fa-bars")
 const sideBar = document.querySelector(".nav-bar")
-
+const navLinks = document.querySelectorAll(".nav-links")
 
 menuIcon.addEventListener("click",()=>{
   if(menuIcon.classList.contains("fa-bars")){
@@ -55,6 +55,12 @@ menuIcon.addEventListener("click",()=>{
   sideBar.classList.toggle("active")
 
   
+})
+
+navLinks.forEach(navlink =>{
+  navlink.addEventListener("click", ()=>{
+    
+  })
 })
 
 
